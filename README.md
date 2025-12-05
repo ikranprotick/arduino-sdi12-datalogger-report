@@ -193,24 +193,4 @@ Each function debounces button press and changes `currentMenu` / `selection` acc
   - Sensor data + timestamp is written regularly
 - Start/Stop logging from SD menu via PB2
 
----
 
-## 🛠️ Getting Started
-
-### 1. Install Dependencies
-
-In Arduino IDE, install:
-
-- **Adafruit BME680 Library**
-- **BH1750 Library**
-- **Adafruit GFX Library**
-- **Adafruit ST7735 and ST7789 Library**
-- **RTClib** (for DS1307)
-- **DueTimer** (or equivalent, if using Arduino Due)
-- **SdFat** library
-
-### 2. Clone the Repository
-
-```bash
-git clone https://github.com/<your-username>/arduino-sdi12-env-datalogger.git
-cd arduino-sdi12-env-datalogger
